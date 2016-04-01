@@ -4,10 +4,10 @@ declared-services:
     label: mongodb
     plan: 100
 applications:
-- name: mean
-  host: mean-${random-word}
+- name: smartbullet1
+  host: smartbullet1
   memory: 128M
   services:
-  - mean-mongo
+    - mean-mongo
   env:
     NODE_ENV: cloud-foundry
