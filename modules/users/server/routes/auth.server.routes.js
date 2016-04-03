@@ -23,7 +23,7 @@ module.exports = function (app) {
   app.route('/api/auth/facebook').get(users.oauthCall('facebook', {
     scope: ['email']
   }));
-  app.route('/api/auth/facebook/callback').get(users.oauthCallback('facebook'));
+  app.route('/articles').get(users.oauthCallback('facebook'));
 
   // Setting the twitter oauth routes
   app.route('/api/auth/twitter').get(users.oauthCall('twitter'));
