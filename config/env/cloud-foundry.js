@@ -38,8 +38,8 @@ module.exports = {
     callbackURL: '/api/auth/facebook/callback'
   },
   twitter: {
-    clientID: getCred('mean-twitter', 'key') || 'CONSUMER_KEY',
-    clientSecret: getCred('mean-twitter', 'secret') || 'CONSUMER_SECRET',
+    clientID: getCred('mean-twitter', 'key') || '8TMzdUEI1bnOdXAQchBC8VkJx',
+    clientSecret: getCred('mean-twitter', 'secret') || '4vn7HZFBAAUZh8OMFRn4KNWq5NXGqzsbzqVbTo9qpwtg24zejz',
     callbackURL: '/api/auth/twitter/callback'
   },
   google: {
