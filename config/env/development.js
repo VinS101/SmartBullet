@@ -35,14 +35,14 @@ module.exports = {
     title: defaultEnvConfig.app.title + ' - Development Environment'
   },
   facebook: {
-    clientID: process.env.FACEBOOK_ID || 'APP_ID',
-    clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
+    clientID: process.env.FACEBOOK_ID || '1674990372753086',
+    clientSecret: process.env.FACEBOOK_SECRET || '50e0af78b3c3adb5ba60c66dce2ffe1d',
     callbackURL: '/api/auth/facebook/callback'
   },
   twitter: {
     clientID: process.env.TWITTER_KEY || '8TMzdUEI1bnOdXAQchBC8VkJx',
     clientSecret: process.env.TWITTER_SECRET || '4vn7HZFBAAUZh8OMFRn4KNWq5NXGqzsbzqVbTo9qpwtg24zejz',
-    callbackURL: '/api/auth/twitter/callback'
+    callbackURL: 'http://smartbullet1.mybluemix.net/articles'
   },
   google: {
     clientID: process.env.GOOGLE_ID || 'APP_ID',
