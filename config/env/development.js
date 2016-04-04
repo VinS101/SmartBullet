@@ -42,7 +42,7 @@ module.exports = {
   twitter: {
     clientID: process.env.TWITTER_KEY || '8TMzdUEI1bnOdXAQchBC8VkJx',
     clientSecret: process.env.TWITTER_SECRET || '4vn7HZFBAAUZh8OMFRn4KNWq5NXGqzsbzqVbTo9qpwtg24zejz',
-    callbackURL: 'http://smartbullet1.mybluemix.net/articles'
+    callbackURL: 'http://smartbullet1.mybluemix.net/auth/twitter/callback'
   },
   google: {
     clientID: process.env.GOOGLE_ID || 'APP_ID',

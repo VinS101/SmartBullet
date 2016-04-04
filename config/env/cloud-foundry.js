@@ -40,7 +40,7 @@ module.exports = {
   twitter: {
     clientID: getCred('mean-twitter', 'key') || '8TMzdUEI1bnOdXAQchBC8VkJx',
     clientSecret: getCred('mean-twitter', 'secret') || '4vn7HZFBAAUZh8OMFRn4KNWq5NXGqzsbzqVbTo9qpwtg24zejz',
-    callbackURL: '/api/auth/twitter/callback'
+    callbackURL: 'http://smartbullet1.mybluemix.net/auth/twitter/callback/auth/twitter/callback'
   },
   google: {
     clientID: getCred('mean-google', 'id') || 'APP_ID',
