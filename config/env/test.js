@@ -38,7 +38,7 @@ module.exports = {
   facebook: {
     clientID: process.env.FACEBOOK_ID || '1674990372753086',
     clientSecret: process.env.FACEBOOK_SECRET || '50e0af78b3c3adb5ba60c66dce2ffe1d',
-    callbackURL: '/api/auth/facebook/callback'
+    callbackURL: 'http://smartbullet1.mybluemix.net/auth/facebook/callback'
   },
   twitter: {
     clientID: process.env.TWITTER_KEY || '8TMzdUEI1bnOdXAQchBC8VkJx',
