@@ -50,7 +50,7 @@ module.exports = {
   google: {
     clientID: process.env.GOOGLE_ID || 'APP_ID',
     clientSecret: process.env.GOOGLE_SECRET || 'APP_SECRET',
-    callbackURL: 'http://smartbullet1.mybluemix.net/api/auth/google/callback'
+    callbackURL: '/api/auth/google/callback'
   },
   linkedin: {
     clientID: process.env.LINKEDIN_ID || 'APP_ID',
