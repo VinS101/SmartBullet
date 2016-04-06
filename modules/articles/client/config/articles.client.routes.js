@@ -11,7 +11,7 @@
     $stateProvider
       .state('articles', {
         abstract: true,
-        url: '/articles',
+        url: '/flyers',
         template: '<ui-view/>'
       })
       .state('articles.list', {
@@ -20,7 +20,7 @@
         controller: 'ArticlesListController',
         controllerAs: 'vm',
         data: {
-          pageTitle: 'Articles List'
+          pageTitle: 'Flyer List'
         }
       })
       .state('articles.create', {
