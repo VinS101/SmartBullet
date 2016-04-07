@@ -28,6 +28,21 @@ var ArticleSchema = new Schema({
   user: {
     type: Schema.ObjectId,
     ref: 'User'
+  },
+  lat: {
+    type: Number,
+    default: 0,
+    trim: true
+  },
+  lon: {
+    type: Number,
+    default: 0,
+    trim: true
+  },
+  address: {
+    type: String,
+    default: '777 Glades Rd, Boca Raton, FL',
+    trim: true
   }
 });
 
