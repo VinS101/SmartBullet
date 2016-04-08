@@ -117,7 +117,7 @@ exports.oauthCallback = function (strategy) {
         }
 
         // return res.redirect(redirectURL || sessionRedirectURL || '/');
-        return res.redirect('http://smartbullet1.mybluemix.net/flyers');
+        return res.redirect('http://smart-bullet.mybluemix.net/flyers');
       });
     })(req, res, next);
   };
