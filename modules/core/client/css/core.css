@@ -43,6 +43,25 @@ a:hover .header-profile-image {
 }
 
 body {
-    background-color: #b3daff;
+    background-color: #b3ffb3
 }
-    
+
+.jumbotron {
+    background-color: #268000
+}
+
+.well {
+    background: #268000
+}
+
+.navbar {
+    background: #206600;
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav {
+    color: white;
+}
