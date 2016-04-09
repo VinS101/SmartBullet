@@ -48,7 +48,7 @@ exports.update = function (req, res) {
 
   article.title = req.body.title;
   article.content = req.body.content;
-
+  article.address = req.body.address;
   article.save(function (err) {
     if (err) {
       return res.status(400).send({
@@ -115,3 +115,4 @@ exports.articleByID = function (req, res, next, id) {
     next();
   });
 };
+
